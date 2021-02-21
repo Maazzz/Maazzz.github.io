@@ -1,0 +1,18 @@
+#sidebar {
+    position: fixed;
+    top: 9%;
+}
+
+p {
+    font-size:x-small;
+}
+.icons{
+    color: #606060 ;
+}
+.p-4{
+    width: 65px;
+    cursor: pointer;
+}
+.selected{
+    color: red;
+}

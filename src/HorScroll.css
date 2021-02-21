@@ -1,0 +1,21 @@
+#horizontal-scroll {
+    position: fixed;
+    width: 96%;
+    top: 66px;
+    left: 60px;
+    z-index: 95;
+}
+#filters{
+    padding: 10px;
+}
+
+#filters::-webkit-scrollbar {
+    display: none;
+}
+.active {
+    background-color: #606060;
+    color: whitesmoke;
+}
+.active:hover{
+    background-color: #909090;
+}

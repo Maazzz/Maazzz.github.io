@@ -1,0 +1,95 @@
+.video {    
+    margin-bottom: 40px;
+    width: 360px;
+}
+.thumbnail {
+    padding-top:25px;
+    width: 345px;
+    height: 220px;
+}
+.items{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.vid-info {
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    margin-top: 13px;
+    margin-bottom: -80px;
+    padding-right: 30px;
+}
+.Video-text{
+    margin-left: 15px;
+}
+.Video-text > h4{
+    font-weight: 600;
+}
+.Video-text > p{
+    font-size: 14px;
+    color: gray;
+}
+.hover .inside-thumbnailTop{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 93%;
+    bottom: 190px;  
+    color: white;
+
+}
+.hover:hover .inside-thumbnailTop{
+    visibility: visible;
+}
+.clock{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10%;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+.playlist{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10%;
+    padding: 2px;
+}
+.duration{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 3px;
+    color: white;
+    position: relative;
+    left: 92%;
+    bottom: 80px;    
+}
+.tooltip-text{
+    font-size: small;
+}
+.watch-later .tooltip-text {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: smaller;
+    color: #FDFDFD;
+    padding: 4px;
+    position: relative;
+    bottom: 1px;
+    right: 118px;
+    height: 12px;
+    opacity: 95%;
+}
+.watch-later:hover .tooltip-text {
+    visibility: visible;
+}
+.queue .tooltip-text {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: smaller;
+    color: #FDFDFD;
+    padding: 4px;
+    position: relative;
+    right: 121px;
+    height: 12px;
+    opacity: 95%;
+}
+.queue:hover .tooltip-text {
+    visibility: visible;
+}
